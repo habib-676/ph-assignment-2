@@ -76,6 +76,46 @@ header {
   border-radius: 12px;
 }
 
+/* banner styles */
+.orange-part {
+  color: orange;
+}
+.blue-part {
+  color: skyblue;
+}
+.banner-title {
+  font-size: 3.11rem;
+  font-weight: bold;
+  line-height: 3.38rem;
+}
+.banner-des {
+  color: black;
+  font-size: 1.11rem;
+}
+.banner-btn {
+  background-color: black;
+  color: white;
+  padding: 8px 40px;
+  border: none;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 45px;
+}
+.banner-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.hero-kid {
+  width: 100%;
+}
 /* responsive part */
 @media screen and (max-width: 576px) {
   .nav-bar {
@@ -91,5 +131,15 @@ header {
   #nav-icon {
     display: inline;
     font-size: 26px;
+  }
+  /* banner */
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    margin: 1.11rem 0.89rem;
+  }
+  .banner-contents {
+    align-items: center;
   }
 }
