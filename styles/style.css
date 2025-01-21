@@ -391,7 +391,9 @@ footer {
   }
   .story-btn {
     font-size: 8px;
+    margin-left: 25px;
   }
+
   .our-stories > button {
     margin-top: 1rem;
     margin-bottom: 2rem;
