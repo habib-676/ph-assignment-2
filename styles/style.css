@@ -131,6 +131,7 @@ header {
   background-image: url(../assets/bg.png);
   background-size: contain;
   padding: 0 125px;
+  padding-top: 3.33rem;
 }
 .curriculum-card-container {
   display: grid;
@@ -189,13 +190,25 @@ header {
 .middle > a {
   color: rgba(135, 0, 255, 1);
 }
-/* next-previous icons */
-.curriculum-icons {
+/* next-previous buttons */
+.curriculum-btn {
   margin: 4.45rem 0;
 }
-.curriculum-icons > i {
+.curriculum-btn > button {
+  width: 3.33rem;
+  height: 3.33rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.curriculum-btn i {
   font-size: 3.33rem;
   color: orange;
+  transition: all 0.2s;
+}
+
+.curriculum-btn > button:hover i {
+  color: rgba(136, 0, 255, 0.7);
 }
 
 /* our stories section */
@@ -376,7 +389,7 @@ footer {
     max-width: 7.5rem;
     height: auto;
   }
-  .curriculum-icons {
+  .curriculum-btn {
     display: none;
   }
 
