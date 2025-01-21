@@ -15,7 +15,7 @@
 
 /* shared styles */
 .section-title {
-  margin: 4.45rem 0;
+  margin-bottom: 4.45rem;
   font-size: 2.26rem;
   font-weight: bold;
   color: black;
@@ -203,9 +203,11 @@ header {
     linear-gradient(rgba(255, 255, 255, 1), rgba(254, 163, 1, 0.5));
   background-size: contain;
   background-position: center;
+  padding-top: 3.33rem;
 }
 .our-stories > button {
   margin-bottom: 50px;
+  margin-top: 3.75rem;
 }
 .story-btn {
   color: white;
@@ -359,6 +361,7 @@ footer {
   }
   .section-title {
     font-size: 1.45rem;
+    margin-bottom: 1rem;
   }
   .curriculum-card-container {
     grid-template-columns: 1fr;
@@ -373,6 +376,22 @@ footer {
   }
   .curriculum-icons {
     display: none;
+  }
+  /* Our story */
+  #story-1 {
+    display: none;
+  }
+  .stories-container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    padding: 0 0.89rem;
+  }
+  .story-btn {
+    font-size: 8px;
+  }
+  .our-stories > button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
 
   /* footer */
