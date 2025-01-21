@@ -11,6 +11,7 @@
   font-family: "Raleway", serif;
   font-optical-sizing: auto;
   font-style: normal;
+  font-size: 12px;
 }
 
 /* shared styles */
@@ -162,7 +163,6 @@ header {
   margin: 1.78rem 0;
 }
 .card-des {
-  font-size: 13px;
   color: rgba(128, 128, 128, 1);
   font-weight: 500;
   line-height: 24px;
@@ -213,7 +213,6 @@ header {
 }
 .story-btn {
   color: white;
-  font-size: 0.8rem;
   padding: 8px 15px;
   border: none;
   border-radius: 45px;
