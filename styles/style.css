@@ -194,11 +194,67 @@ header {
   font-size: 3.33rem;
   color: orange;
 }
+
+/* footer */
+footer {
+  background-color: rgba(1, 172, 253, 1);
+  color: white;
+  padding: 6.95rem 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+}
+.footer-headline {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  gap: 10px;
+}
+.footer-headline > h1 {
+  font-size: 2rem;
+  line-height: 30px;
+  font-weight: bold;
+}
+.footer-des {
+  font-size: 1.1rem;
+  letter-spacing: 0%;
+  margin-top: 30px;
+}
+.left-footer {
+  max-width: 300px;
+}
+.middle-footer > p,
+.right-footer > p {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+.middle-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+.middle-footer li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.social {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.social img {
+  max-width: 35px;
+}
 /* responsive part */
 @media screen and (max-width: 576px) {
-  * {
-    overflow-x: hidden;
-  }
   .nav-bar {
     padding: 10px 0.89rem;
     border-bottom: 1px solid orange;
@@ -243,5 +299,12 @@ header {
   }
   .curriculum-icons {
     display: none;
+  }
+
+  /* footer */
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 1rem;
   }
 }
